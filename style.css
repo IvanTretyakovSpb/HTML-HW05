@@ -153,6 +153,17 @@ img {
     background: #FAFAFA;
 }
 
+.main_block_features_items {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.item_feature {
+    padding: 30px;
+}
+
 .selected {
     background: #FFF;
     box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
@@ -189,17 +200,6 @@ img {
     line-height: 150%;
     /* 16.5px */
     text-decoration: none;
-}
-
-.item_feature {
-    padding: 30px;
-}
-
-.advantages_features_items {
-    display: grid;
-    gap: 60px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
 }
 
 .advantages_services {
